@@ -13,15 +13,15 @@ jQuery(() => {
                     $('#divProductos').append(`
                     <div class="col mb-5" id="${producto.id}">
                     <div class="card h-100">
-                    <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta</div>
+                    <!-- Sale badge
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Oferta</div>-->
                     <!-- Product image-->
                     <img class="card-img-top" src="${producto.imagen}" alt="..." />
                     <!-- Product details-->
                     <div class="card-body p-4">
                         <div class="text-center">
                             <!-- Product name-->
-                            <h5 class="fw-bolder">${producto.nombre}</h5>
+                            <h5 class="fw-bolder text-uppercase">${producto.nombre}</h5>
                             <p class="card-text">${producto.codigo}</p>
                             <!-- Product reviews-->
                             <div class="d-flex justify-content-center small text-warning mb-2">
