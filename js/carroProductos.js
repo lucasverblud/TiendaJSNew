@@ -46,12 +46,12 @@ const actualizarCarritoIcon = () => {
     localStorage.setItem("totalCarrito", totalCarrito);
 }
 */
-/*
+
 // TOGGLE BOTÓN CANASTA
 $(".boton-canasta").on("click", function () {
     $("#contenedor-general-canasta").toggleClass("on");
 });
-*/
+
 
 /* Con esta función puedo agregar productos del contenedor a la canasta */
 
