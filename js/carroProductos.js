@@ -54,7 +54,7 @@ $(".boton-canasta").on("click", function () {
 */
 
 /* Con esta función puedo agregar productos del contenedor a la canasta */
-/*
+
 const insertarProductosACanasta = (producto) => {
     if ($(`#productoCanasta-${producto.id}`).length === 0) {
         if (!$("#contenedor-general-canasta").hasClass("on")) {
@@ -101,4 +101,4 @@ const insertarProductosACanasta = (producto) => {
     actualizarCarritoIcon();
     sumarCarrito();
 }
-*/
+
