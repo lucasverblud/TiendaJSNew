@@ -1,6 +1,7 @@
 
 const canastaLocalStorage = [];
 /* Con esta función puedo eliminar productos de la canasta */
+
 const eliminarProducto = (producto) => {
 
     $(`#productoCanasta-${producto.id}`).remove();
@@ -11,13 +12,16 @@ const eliminarProducto = (producto) => {
     sumarCarrito();
 }
 
+/*
 const convertirPrecioANumero = (precio) => parseInt(precio.replaceAll(",", ""));
-
+*/
+/*
 // https://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript
 const numeroAComas = (total) => {
     return total.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
-
+*/
+/*
 const sumarCarrito = () => {
     let totalCanasta = 0;
     for (const producto of canastaLocalStorage) {
@@ -27,7 +31,8 @@ const sumarCarrito = () => {
     $("#totalPagar").html(`$${numeroAComas(totalCanasta)}`);
     localStorage.setItem("totalAPagar", totalCanasta);
 }
-
+*/
+/*
 const actualizarCarritoIcon = () => {
 
     let totalCarrito = 0;
@@ -40,13 +45,16 @@ const actualizarCarritoIcon = () => {
 
     localStorage.setItem("totalCarrito", totalCarrito);
 }
-
+*/
+/*
 // TOGGLE BOTÓN CANASTA
 $(".boton-canasta").on("click", function () {
     $("#contenedor-general-canasta").toggleClass("on");
 });
+*/
 
 /* Con esta función puedo agregar productos del contenedor a la canasta */
+/*
 const insertarProductosACanasta = (producto) => {
     if ($(`#productoCanasta-${producto.id}`).length === 0) {
         if (!$("#contenedor-general-canasta").hasClass("on")) {
@@ -93,4 +101,4 @@ const insertarProductosACanasta = (producto) => {
     actualizarCarritoIcon();
     sumarCarrito();
 }
-
+*/
